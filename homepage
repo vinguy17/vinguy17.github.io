@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Your Name — Portfolio</title>
+<title>Vivian Nguyen — Portfolio</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -527,7 +527,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">Your <span>Name</span></a>
+  <a href="#" class="nav-logo">Vivian <span>Nguyen</span></a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#writing">Writing</a></li>
@@ -549,7 +549,7 @@
   <div class="hero-avatar">
     <div style="position: relative; display: inline-block;">
       <div class="avatar-frame">
-        <div class="avatar-initials">YN</div>
+        <div class="avatar-initials">VN</div>
         <span class="avatar-label">Your photo here</span>
       </div>
       <div class="accent-bar"></div>
@@ -565,25 +565,21 @@
   <div class="section-title">The short version</div>
   <div class="about-grid">
     <div class="about-bio">
-      <p>I'm a content producer and writer with a background in storytelling across formats — articles, scripts, video, campaigns. I work at the intersection of editorial craft and marketing strategy, making complex ideas feel human and worth your time.</p>
-      <p>Currently, I'm part of a content team at a big tech company, where I help shape how the brand communicates to the world. Outside of that, I write about [your interests], produce [your side projects], and occasionally share work here.</p>
+      <p>I'm a content producer and writer with a background in storytelling across formats — articles, scripts, and videos. I work at the intersection of technologyo, editorial, and marketing strategy, making complex ideas feel human.</p>
+      <p>Currently, I'm part of a video team at a big tech company, where I help shape customer stories. Outside of that, I love to cook, read, travel, and occasionally share work here.</p>
     </div>
     <div class="about-details">
       <div class="detail-item">
         <div class="detail-label">Currently</div>
-        <div class="detail-value">Content Producer @ Big Tech Co.<br>Chicago, IL</div>
+        <div class="detail-value">Customer Evidence Producer<br>Chicago, IL</div>
       </div>
       <div class="detail-item">
         <div class="detail-label">Specialties</div>
-        <div class="detail-value">Long-form writing · Video production<br>Brand storytelling · Editorial strategy</div>
+        <div class="detail-value">Long-form writing · Video production<br>Storytelling · Content strategy</div>
       </div>
       <div class="detail-item">
         <div class="detail-label">Previously</div>
-        <div class="detail-value">Add your past roles here</div>
-      </div>
-      <div class="detail-item">
-        <div class="detail-label">Education</div>
-        <div class="detail-value">Your degree, University, Year</div>
+        <div class="detail-value">Senior Creative Producer</div>
       </div>
     </div>
   </div>
@@ -666,7 +662,7 @@
   <div class="featured-row">
 
     <!-- FEATURED VIDEO / PLAYLIST — update href -->
-    <a href="YOUR_YOUTUBE_PLAYLIST_LINK" class="featured-card">
+    <a href="https://www.youtube.com/playlist?list=PLnWjfDdQkUQSHcswroP_zm8fdohmRTVRr" class="featured-card">
       <div class="featured-thumb">
         <div class="play-btn"><div class="play-triangle"></div></div>
         <span class="card-type-badge badge-video" style="border-radius: 3px;">YouTube Playlist</span>
@@ -676,15 +672,15 @@
         </div>
       </div>
       <div class="featured-body">
-        <div class="featured-label">YouTube Playlist · X episodes</div>
-        <div class="featured-desc">A short description of this series — what it's about, who it's for, and what makes it worth watching.</div>
+        <div class="featured-label">YouTube Playlist · 10 episodes</div>
+        <div class="featured-desc">A video series on how small businesses use Microsoft 365 to successfully run their company.</div>
       </div>
     </a>
 
     <div style="display: flex; flex-direction: column; gap: 16px;">
 
       <!-- VIDEO CARD 1 — update href -->
-      <a href="YOUR_ONEDRIVE_LINK" class="work-card">
+      <a href="https://onedrive.live.com/?photosData=%2Fshare%2F662949F6B5CE9C0D%21sbe238d2f77cc4cb58d4bcfb06788269b%3Fithint%3Dvideo%26e%3DvOnXOJ%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy82NjI5NDlmNmI1Y2U5YzBkL0VTLU5JNzdNZDdWTWpVdlBzR2VJSnBzQmVYb1pRQzg3Ykk0Ym1KUFVWX1dMUlE%5FZT12T25YT0o&view=8" class="work-card">
         <div class="card-thumb thumb-video" style="height: 110px;">
           <span class="card-type-badge badge-video">OneDrive</span>
           <div class="play-btn" style="width: 36px; height: 36px;"><div class="play-triangle" style="border-top-width: 6px; border-bottom-width: 6px; border-left-width: 11px;"></div></div>
@@ -700,7 +696,7 @@
       </a>
 
       <!-- VIDEO CARD 2 — update href -->
-      <a href="YOUR_ONEDRIVE_LINK" class="work-card">
+      <a href="https://onedrive.live.com/?photosData=%2Fshare%2F662949F6B5CE9C0D%21sa5aafe11d76943e0b8098a57e53bc2f7%3Fithint%3Dvideo%26e%3DebcXjq%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy82NjI5NDlmNmI1Y2U5YzBkL0VSSC1xcVZwMS1CRHVBbUtWLVU3d3ZjQmhXUTU5UXplTWpLeHI1OUx3MHRQbUE%5FZT1lYmNYanE&view=8" class="work-card">
         <div class="card-thumb thumb-video" style="height: 110px;">
           <span class="card-type-badge badge-video">OneDrive</span>
           <div class="play-btn" style="width: 36px; height: 36px;"><div class="play-triangle" style="border-top-width: 6px; border-bottom-width: 6px; border-left-width: 11px;"></div></div>
