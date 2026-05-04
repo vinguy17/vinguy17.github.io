@@ -66,33 +66,6 @@
   .nav-links a:hover,
   .nav-links a.active { color: var(--text-primary); }
 
-  /* TABS */
-  .tab-bar {
-    display: flex;
-    border-bottom: 0.5px solid var(--border);
-    padding: 0 2rem;
-  }
-  .tab-btn {
-    font-size: 12px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    padding: 12px 0;
-    margin-right: 2rem;
-    border: none;
-    border-bottom: 1.5px solid transparent;
-    background: none;
-    cursor: pointer;
-    transition: color 0.2s, border-color 0.2s;
-    margin-bottom: -0.5px;
-  }
-  .tab-btn:hover { color: var(--text-primary); }
-  .tab-btn.active {
-    color: var(--text-primary);
-    border-bottom-color: var(--text-primary);
-    font-weight: 500;
-  }
-
   /* PANELS */
   .panel { display: none; }
   .panel.active { display: block; }
@@ -301,20 +274,6 @@
     flex-shrink: 0;
   }
 
-  /* FOOTER */
-  footer {
-    border-top: 0.5px solid var(--border);
-    padding: 1.25rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-  footer p {
-    font-size: 11px;
-    color: var(--text-muted);
-  }
-
   /* PLACEHOLDER SVG */
   .doc-icon { opacity: 0.25; }
 
@@ -342,12 +301,6 @@
     <li><a onclick="switchTab('about')" id="nav-about">About</a></li>
   </ul>
 </nav>
-
-<!-- TAB BAR -->
-<div class="tab-bar">
-  <button class="tab-btn active" id="tab-work" onclick="switchTab('work')">Work</button>
-  <button class="tab-btn" id="tab-about" onclick="switchTab('about')">About</button>
-</div>
 
 <!-- WORK PANEL -->
 <div id="panel-work" class="panel active">
@@ -509,9 +462,9 @@
           </a>
           <a href="https://linkedin.com/in/vivianlnguyen" class="contact-link" target="_blank" rel="noopener">
             <span class="contact-link-label">LinkedIn</span>
-            linkedin.com/in/vivianlnguyen
+            linkedin.com/vivianlnguyen
           </a>
-          <a href="https://yoursubstack.substack.com" class="contact-link" target="_blank" rel="noopener">
+          <a href="https://vinguy.substack.com" class="contact-link" target="_blank" rel="noopener">
             <span class="contact-link-label">Substack</span>
             vinguy.substack.com
           </a>
@@ -524,8 +477,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>Vivian Nguyen</p>
-  <p>2026</p>
+  <p>© 2026</p>
 </footer>
 
 <script>
