@@ -289,6 +289,18 @@
   @media (max-width: 420px) {
     .work-grid { grid-template-columns: 1fr; }
   }
+ footer {
+  border-top: 0.5px solid var(--border);
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+footer p {
+  font-size: 11px;
+  color: var(--text-muted);
+}
 </style>
 </head>
 <body>
@@ -359,15 +371,17 @@
         <div class="wcard-title">Business article on local community</div>
       </a>
 
-      <!-- CARD 5 — YouTube video -->
-      <a href="https://www.youtube.com/watch?v=MpDJQqURRFo&list=PLXPr7gfUMmKxJqvWQYhwEXZ8wPp3nkzb0&index=14" class="wcard" target="_blank" rel="noopener">
-        <div class="wcard-thumb">
-            <img src="What's New M365_Work Card.png" alt="What's New with Microsoft 365">
-          </div>
-        </div>
-        <div class="wcard-type">Video series · Microsoft</div>
-        <div class="wcard-title">What's New with Microsoft 365</div>
-      </a>
+<!-- CARD 5 — YouTube video -->
+     <a href="https://www.youtube.com/watch?v=MpDJQqURRFo&list=PLXPr7gfUMmKxJqvWQYhwEXZ8wPp3nkzb0&index=14" class="wcard" target="_blank" rel="noopener">
+      <div class="wcard-thumb">
+        <img src="What's New M365_Work Card.png" alt="What's New with Microsoft 365">
+         <div class="play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+         <div class="play-tri"></div>
+         </div>
+       </div>
+  <div class="wcard-type">Video series · Microsoft</div>
+  <div class="wcard-title">What's New with Microsoft 365</div>
+</a> 
 
       <!-- CARD 6 — Video sample -->
       <a href="https://onedrive.live.com/?sortField=LinkFilename&isAscending=true&viewid=7c06b173%2D51d3%2D4219%2D9567%2D878fa58fa452&id=%2Fpersonal%2F662949f6b5ce9c0d%2FDocuments%2FMicrosoft%2FTeams%20videos%2FJoin%20a%20Teams%20meeting%20%28UPDATE%29%20%2D%20PUBLISH%2FJoin%20a%20Teams%20meeting%20%28UPDATE%29%20%2D%20MP4%2Emp4&parent=%2Fpersonal%2F662949f6b5ce9c0d%2FDocuments%2FMicrosoft%2FTeams%20videos%2FJoin%20a%20Teams%20meeting%20%28UPDATE%29%20%2D%20PUBLISH" class="wcard" target="_blank" rel="noopener">
@@ -434,11 +448,11 @@
 
     <div class="about-content">
       <div class="about-name">Vivian Nguyen</div>
-      <div class="about-role">Content producer & writer</div>
+      <div class="about-role">Content strategist, creative producer, & writer</div>
 
       <div class="about-bio">
         <!-- Replace with your actual bio -->
-        <p>I'm a content strategist, creative produer, and writer with a background in storytelling across formats — articles, scripts, video, campaigns. <br>I work at the intersection of editorial craft and marketing strategy, making complex ideas feel human and worth your time.</p>
+        <p>I'm a content strategist, creative producer, and writer with a background in storytelling across formats — articles, scripts, video, campaigns. I work at the intersection of creative producing, content strategy, and tech storytelling, making complex ideas feel human and worth your time.</p>
       </div>
 
       <div class="about-details">
@@ -449,7 +463,7 @@
         </div>
         <div>
           <div class="detail-label">Specialties</div>
-          <div class="detail-value">Writing · Video<br>Brand storytelling · Content strategy</div>
+          <div class="detail-value">Writing · Video · Producing<br>Brand storytelling · Content strategy</div>
       </div>
 
       <div class="contact-section">
