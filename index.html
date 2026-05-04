@@ -328,7 +328,7 @@
       <a href="https://microsoft.design/articles/behind-the-design-surface-headphones/" class="wcard" target="_blank" rel="noopener">
         <div class="wcard-thumb">
           <div class="light-thumb">
-            <img src="Behind the Scenes - Surface Headphones.jpg" alt="Behind the Design">
+            <img src="Behind the Scenes - Surface Headphones.png" alt="Behind the Design">
           </div>
         </div>
         <div class="wcard-type">Feature story · Microsoft</div>
@@ -361,7 +361,6 @@
       <!-- CARD 5 — YouTube video -->
       <a href="https://www.youtube.com/watch?v=MpDJQqURRFo&list=PLXPr7gfUMmKxJqvWQYhwEXZ8wPp3nkzb0&index=14" class="wcard" target="_blank" rel="noopener">
         <div class="wcard-thumb">
-          <div class="dark-thumb">
             <img src="What's New M365_Work Card.png" alt="What's New with Microsoft 365">
             <div class="play-btn"><div class="play-tri"></div></div>
           </div>
@@ -446,7 +445,7 @@
         <div>
           <div class="detail-label">Currently</div>
           <!-- Update with your actual role and company -->
-          <div class="detail-value">Customer Evidence Producer<br>Simplicity Consulting (client: Microsoft)</div>
+          <div class="detail-value">Customer Evidence Producer</div>
         </div>
         <div>
           <div class="detail-label">Specialties</div>
@@ -471,31 +470,22 @@
           </a>
         </div>
       </div>
-
-    </div>
-  </div>
 </div>
+  </div>
+</div> <!-- closes panel-about -->
 
-<!-- FOOTER -->
 <footer>
   <p>© 2026</p>
 </footer>
 
 <script>
   function switchTab(id) {
-    // Hide all panels
     document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-    // Deactivate all tab buttons
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    // Deactivate all nav links
     document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
-    // Show selected panel
     document.getElementById('panel-' + id).classList.add('active');
-    // Activate selected tab button
     document.getElementById('tab-' + id).classList.add('active');
-    // Activate selected nav link
     document.getElementById('nav-' + id).classList.add('active');
-    // Scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 </script>
