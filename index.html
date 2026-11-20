@@ -493,6 +493,11 @@ footer p {
     document.getElementById('nav-' + id).classList.add('active');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
+  // Open the About tab when arriving via an #about link
+  if (window.location.hash === '#about') {
+    switchTab('about');
+  }
 </script>
 
 </body>
